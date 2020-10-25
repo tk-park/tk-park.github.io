@@ -3,7 +3,7 @@ layout: post
 title: "[프로젝트] 솔리디티 공부하기 - CryptoZombies"
 author: "Taekang"
 comments: true
-tags: Project
+tags: Projects
 ---
 
 ## "솔리디티 공부하기 - CryptoZombies"
