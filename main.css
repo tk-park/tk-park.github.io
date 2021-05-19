@@ -51,7 +51,7 @@ body {
 
 header {
   width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@ header img {
 
 .main {
   width: 100%;
-  height: 520px;
+  height: 600px;
   background-color: rgb(246, 247, 249);
   display: flex;
   flex-direction: column;
@@ -93,11 +93,13 @@ header img {
   line-height: 1.1em;
   color: black;
   margin: 40px 30px 10px 30px;
+  text-align: center;
+  line-height: normal;
 }
 
 .main-contents p {
   font-size: 1.3em;
-  margin: 15px 30px 20px 30px;
+  margin: 10px 30px 40px 30px;
   color: #6e6e6e;
 }
 
@@ -105,13 +107,14 @@ header img {
   width: 210px;
   height: 45px;
   font-size: 1.3em;
-  font-weight: 800;
+  font-weight: 700;
   cursor: pointer;
   color: white;
   background-color: red;
   border: 1px solid red;
   box-sizing: border-box;
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .main button:hover {
@@ -132,18 +135,22 @@ header img {
 }
 
 .intro-container h2 {
-  font-size: 2.1875em;
-  font-weight: 450;
+  font-size: 2.5em;
+  font-weight: 600;
   line-height: 1.1em;
   color: black;
   margin: 80px 30px 10px 30px;
+  text-align: center;
+  line-height: normal;
 }
 
 .intro-container p {
   font-size: 1.4em;
   line-height: 1.3em;
-  margin: 30px 30px 80px 30px;
+  margin: 10px 30px 80px 30px;
   color: #6e6e6e;
+  text-align: center;
+  line-height: normal;
 }
 
 .intro-contents {
@@ -163,7 +170,7 @@ header img {
 }
 
 .intro-contents div img {
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .intro-contents h4 {
@@ -172,11 +179,14 @@ header img {
   color: black;
   line-height: 1.3em;
   font-size: 2em;
-  font-weight: 550;
+  font-weight: 450;
+  text-align: center;
+  line-height: normal;
 }
 
 .intro-contents p {
   font-size: 1.4em;
+  text-align: left;
 }
 
 .intro-end {
@@ -201,7 +211,7 @@ header img {
 
 .intro-end-content img {
   width: 320px;
-  margin: 40px 20% 40px 20%;
+  margin: 40px 20% 60px 20%;
   height: auto;
 }
 
@@ -219,7 +229,7 @@ header img {
   margin: 20px 0px;
   color: rgb(110, 110, 110);
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.1em;
 }
 
@@ -247,11 +257,12 @@ header img {
 .banner-container h3 {
   width: auto;
   height: auto;
-  line-height: 1.1em;
   font-size: 2em;
   font-weight: 500;
   color: black;
   margin-bottom: 40px;
+  text-align: center;
+  line-height: normal;
 }
 
 .banner-container button {
@@ -352,7 +363,7 @@ footer li:hover {
 
   .main-contents p {
     font-size: 1.0625em;
-    margin: 30px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
     color: #6e6e6e;
   }
 
