@@ -391,7 +391,7 @@ footer li:hover {
   .main button {
     width: 210px;
     height: 45px;
-    font-size: 0.875em;
+    font-size: 0.75em;
     font-weight: 800;
     cursor: pointer;
     color: white;
@@ -557,7 +557,7 @@ footer li:hover {
     width: 172px;
     height: 45px;
     border-radius: 50px;
-    font-size: 0.875em;
+    font-size: 0.75em;
     font-weight: 500;
     cursor: pointer;
     color: red;
