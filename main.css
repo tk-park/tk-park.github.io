@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+.fade-in-box {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -o-animation: fadein 3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 1.3em;
+  font-size: 10px;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+  height: 30px;
+}
+
+.main {
+  width: 100%;
+  height: 520px;
+  background-color: rgb(246, 247, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-contents h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: black;
+  margin: 40px 30px 10px 30px;
+}
+
+.main-contents p {
+  font-size: 1.3em;
+  margin: 15px 30px 20px 30px;
+  color: #6e6e6e;
+}
+
+.main button {
+  width: 210px;
+  height: 45px;
+  font-size: 1.3em;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.main button:hover {
+  color: red;
+  background-color: white;
+}
+
+.main img {
+  width: 100%;
+  height: 333px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container h2 {
+  font-size: 2.1875em;
+  font-weight: 450;
+  line-height: 1.1em;
+  color: black;
+  margin: 80px 30px 10px 30px;
+}
+
+.intro-container p {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  margin: 30px 30px 80px 30px;
+  color: #6e6e6e;
+}
+
+.intro-contents {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-contents div {
+  width: 350px;
+  height: 280px;
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.intro-contents div img {
+  margin: 0px 0px 20px 0px;
+}
+
+.intro-contents h4 {
+  width: auto;
+  height: auto;
+  color: black;
+  line-height: 1.3em;
+  font-size: 2em;
+  font-weight: 550;
+}
+
+.intro-contents p {
+  font-size: 1.4em;
+}
+
+.intro-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.intro-end-container {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-end-content {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-end-content img {
+  width: 320px;
+  margin: 40px 20% 40px 20%;
+  height: auto;
+}
+
+.intro-end-content h3 {
+  width: auto;
+  height: auto;
+  color: black;
+  margin: 20px 0px;
+  font-size: 2.2em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.intro-end-content p {
+  margin: 20px 0px;
+  color: rgb(110, 110, 110);
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+.intro-end-contents {
+  margin: 0px 50px;
+}
+
+.banner {
+  margin: 80px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/gdpr.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container h3 {
+  width: auto;
+  height: auto;
+  line-height: 1.1em;
+  font-size: 2em;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.banner-container button {
+  width: 172px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 1.3em;
+  font-weight: 500;
+  cursor: pointer;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.banner-container button:hover {
+  color: white;
+  background-color: red;
+  font-weight: 800;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li {
+  font-size: 0.9375;
+  margin: 0px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer li:hover {
+  color: red;
+}
+
+@media all and (min-width: 1024px) {
+  body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+  }
+
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  header img {
+    width: 120px;
+    height: 30px;
+  }
+
+  .main {
+    width: 100%;
+    height: 520px;
+    background-color: rgb(246, 247, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main-contents h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: black;
+    margin: 40px 0px 10px 0px;
+  }
+
+  .main-contents p {
+    font-size: 1.0625em;
+    margin: 30px 0px 20px 0px;
+    color: #6e6e6e;
+  }
+
+  .main button {
+    width: 210px;
+    height: 45px;
+    font-size: 0.875em;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+
+  .main button:hover {
+    color: red;
+    background-color: white;
+  }
+
+  .main img {
+    width: 470px;
+    height: 333px;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-container h2 {
+    font-size: 2.1875em;
+    font-weight: 450;
+    color: black;
+    margin: 80px 0px 10px 0px;
+  }
+
+  .intro-container p {
+    font-size: 1.0625em;
+    line-height: 1.4em;
+    margin: 30px 0px 80px 0px;
+    color: #6e6e6e;
+  }
+
+  .intro-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-contents div {
+    width: 200px;
+    height: 280px;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .intro-contents div img {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .intro-contents h4 {
+    width: auto;
+    height: auto;
+    color: black;
+    line-height: 1.1em;
+    font-size: 1.25em;
+    font-weight: 550;
+  }
+
+  .intro-contents p {
+    font-size: 0.9375em;
+  }
+
+  .intro-end {
+    margin: 100px 0px 0px 0px;
+  }
+
+  .intro-end-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-end-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-end-content img {
+    width: 406px;
+    height: 436px;
+    margin: 0px;
+  }
+
+  .intro-end-content h3 {
+    width: auto;
+    height: auto;
+    color: black;
+    margin: 20px 0px;
+    font-size: 1.875em;
+    font-weight: 500;
+    line-height: 1.2em;
+  }
+
+  .intro-end-content p {
+    margin: 20px 0px;
+    color: rgb(110, 110, 110);
+    font-size: 0.9375em;
+    font-weight: 400;
+    line-height: 1.1em;
+  }
+
+  .intro-end-contents {
+    margin: 0px 50px;
+  }
+
+  .banner {
+    margin: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-container {
+    width: 1110px;
+    height: 300px;
+    background-image: url(./images/gdpr.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-container h3 {
+    width: auto;
+    height: auto;
+    line-height: 1.1em;
+    font-size: 1.5625em;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 40px;
+  }
+
+  .banner-container button {
+    width: 172px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 0.875em;
+    font-weight: 500;
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+
+  .banner-container button:hover {
+    color: white;
+    background-color: red;
+    font-weight: 800;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+    width: 100%;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer li {
+    font-size: 0.9375;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  footer li:hover {
+    color: red;
+  }
+}
