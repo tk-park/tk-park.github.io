@@ -589,7 +589,7 @@ footer li:hover {
   }
 
   footer li {
-    font-size: 0.9375;
+    font-size: 1em;
     margin: 0px 20px;
     cursor: pointer;
     transition: 0.3s;
