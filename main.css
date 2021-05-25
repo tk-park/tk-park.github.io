@@ -189,6 +189,35 @@ header img {
   text-align: left;
 }
 
+.warningLetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+.warningLetter .title {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.youtube {
+  background-color: #f6f7f9;
+  margin-bottom: 95px;
+  padding: 15px;
+  box-shadow: 0px 3px 6px rgb(230, 230, 230);
+}
+
+.instagram {
+  padding: 15px 3px 15px 27px;
+  box-shadow: 0px 3px 6px rgb(230, 230, 230);
+}
+
+.warningLetter img {
+  width: 250px;
+}
+
 .intro-end {
   display: flex;
   justify-content: center;
@@ -224,12 +253,12 @@ header img {
 
 .top {
   position: relative;
-  top: -290px;
+  top: -180px;
 }
 
 .down {
   position: relative;
-  top: 290px;
+  top: 360px;
 }
 
 .intro-end-content h3 {
@@ -463,6 +492,35 @@ footer li:hover {
 
   .intro-contents p {
     font-size: 0.9375em;
+  }
+
+  .warningLetter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 115px 0px;
+  }
+
+  .warningLetter .title {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .youtube {
+    background-color: #f6f7f9;
+    margin-bottom: 95px;
+    padding: 15px;
+    box-shadow: 0px 3px 6px rgb(230, 230, 230);
+  }
+
+  .instagram {
+    padding: 15px 3px 15px 27px;
+    box-shadow: 0px 3px 6px rgb(230, 230, 230);
+  }
+
+  .warningLetter img {
+    width: 650px;
   }
 
   .intro-end {
