@@ -104,7 +104,7 @@ header img {
 }
 
 .main button {
-  width: 210px;
+  width: 145px;
   height: 45px;
   font-size: 1.3em;
   font-weight: 700;
@@ -413,15 +413,15 @@ footer li:hover {
 
   .main-contents p {
     font-size: 1.0625em;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 30px 0px;
     color: #6e6e6e;
   }
 
   .main button {
-    width: 210px;
+    width: 145px;
     height: 45px;
-    font-size: 0.75em;
-    font-weight: 800;
+    font-size: 0.9em;
+    font-weight: 600;
     cursor: pointer;
     color: white;
     background-color: red;
@@ -616,7 +616,7 @@ footer li:hover {
     height: 45px;
     border-radius: 50px;
     font-size: 0.75em;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     color: red;
     background-color: white;
