@@ -276,7 +276,7 @@ header img {
   color: rgb(110, 110, 110);
   font-size: 1.3em;
   font-weight: 500;
-  line-height: 1.1em;
+  line-height: normal;
 }
 
 .intro-end-contents {
